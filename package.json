@@ -1,0 +1,15 @@
+{
+  "name": "my-pocket-coach-supabase",
+  "version": "1.0.0",
+  "description": "Supabase setup for My Pocket Coach - recipes, user data, and authentication",
+  "type": "module",
+  "scripts": {
+    "import-recipes": "node scripts/import-recipes.js",
+    "upload-images": "node scripts/upload-images.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "csv-parse": "^5.5.3",
+    "dotenv": "^16.3.1"
+  }
+}
